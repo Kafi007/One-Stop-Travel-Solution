@@ -169,16 +169,16 @@ select {
 }
 .choose-us-box-1 {
   background: rgba(251, 181, 99, 0.05);
-  border: 1px solid rgba(251, 181, 99, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
 }
 .choose-us-box-2 {
   background: rgba(41, 206, 246, 0.05);
-  border: 1px solid rgba(41, 206, 246, 0.20);
+  border: 1px solid rgba(41, 206, 246, 0.2);
 }
 .choose-us-box-3 {
   margin: auto;
   background: rgba(251, 181, 99, 0.05);
-  border: 1px solid rgba(251, 181, 99, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
 }
 .choose-us-box p {
   width: 460px;
@@ -192,7 +192,7 @@ select {
 }
 .newsletter-submition {
   width: 392px;
-  border: 1px solid #FF5400;
+  border: 1px solid #ff5400;
   border-radius: 16px;
   padding: 40px;
   display: flex;
@@ -203,7 +203,7 @@ select {
   margin-bottom: 16px;
 }
 .newsletter-submition p {
-  border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
   padding-bottom: 25px;
 }
 
@@ -226,7 +226,7 @@ select {
 .curve-div {
   width: 246px;
   color: #fff;
-  background-color: #FF5400;
+  background-color: #ff5400;
   padding: 0px 25px;
   text-align: center;
   border-radius: 16px;
@@ -238,6 +238,54 @@ select {
 .curve-div h2 {
   font-weight: normal;
 }
+
+/* footer section styles */
+.footer {
+  background: rgba(19, 19, 24, 0.05);
+  padding: 100px;
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+}
+.footer-container ul {
+  display: flex;
+  width: 186px;
+  margin: auto;
+  margin-top: 40px;
+  padding-left: 0;
+  margin-bottom: 20px;
+
+}
+.footer-container ul li {
+  list-style: none;
+  font-size: 2rem;
+  margin-right: 25px;
+}
+.footer-container li a {
+  color: #131318;
+}
+.footer-container ul li:last-child {
+  margin-right: 0;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.text-orange {
+  color: #FF5400;
+}
+.footer p {
+  width: 768px;
+  margin: auto;
+}
+.footer-p {
+  padding-top: 45px;
+  border-top: 1px solid rgba(19, 19, 24, 0.10);
+}
+
 
 /* responsive styles  */
 @media screen and (max-width: 672px) {
@@ -272,8 +320,8 @@ select {
     flex-direction: column;
   }
   /* responsive destination-section */
-  .destination-image-container{
-    display:grid;
+  .destination-image-container {
+    display: grid;
     grid-template-columns: 1fr;
   }
   .destination-content h3 {
@@ -282,4 +330,45 @@ select {
   .destination-content p {
     width: 336px;
   }
+  /* why choose us responsive */
+  .choose-us {
+    margin-top: 230px;
+  }
+  .choose-us-box-container {
+    width: 336px;
+    flex-direction: column;
+    width: 336px;
+  }
+  .choose-us-container > p {
+    width: 320px;
+  }
+  .choose-us-box {
+    width: 285px;
+  }
+  .choose-us-box p {
+    width: 290px;
+  }
+
+
+
+  /* newsletter section responsive */
+    .newsletter-section-container {
+        flex-direction: column;
+    }
+    .newsletter-submition {
+        width: 250px;
+    }
+    .newsletter-img {
+        width: 336px;
+    }
+    .curve-div {
+        width: 180px;
+        bottom: 18%;
+        right: 3%;
+    }
+    .curve-div h2{
+        font-size: .75rem;
+    }
+    /* footer responsive */
+
 }
