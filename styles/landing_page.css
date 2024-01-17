@@ -1,0 +1,71 @@
+/* shared styles */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;800&display=swap");
+:root {
+  --fav-clr: #ff5400;
+  --text-gray-clr: rgba(19, 19, 24, 0.7);
+  --text-white-clr: #FFF;
+}
+* {
+  /* margin:0; */
+  font-family: "Mulish", sans-serif;
+}
+.btn-primary{
+
+}
+.section-title {
+  font-size: 2.5rem;
+  color: #131318;
+  font-weight: 800;
+}
+
+
+/* header section */
+/* nav related styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  gap: 5px;
+}
+nav .section-title{
+    font-size: 2.25rem;
+}
+nav #nav-title-right{
+    color:var(--fav-clr);
+}
+.nav-left{
+    display:flex;
+   
+    
+}
+.nav-left img{
+    max-height: 45px;
+}
+.nav-right ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-right ul > li {
+  list-style: none;
+  color: #424247;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.nav-right a {
+  text-decoration: none;
+  color: #424247;
+}
+#first-nav-item {
+  color: var(--fav-clr);
+}
+
+/* responsive styles  */
+@media screen and (max-width: 600px) {
+ 
+    
+}
