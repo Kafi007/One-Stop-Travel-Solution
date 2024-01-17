@@ -251,7 +251,7 @@ select {
 .footer-container ul {
   display: flex;
   width: 186px;
-  margin: auto;
+  margin-left: 300px;
   margin-top: 40px;
   padding-left: 0;
   margin-bottom: 20px;
@@ -286,7 +286,7 @@ select {
 }
 
 /* responsive styles  */
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 600px) {
   /* responsive nav  styles */
   nav {
     flex-direction: column;
@@ -368,6 +368,9 @@ select {
   /* footer responsive */
   .footer-container {
     width: 336px;
+  }
+  .footer-container ul {
+    margin-left: 35px;
   }
   .footer p {
     width: 308px;
